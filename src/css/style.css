@@ -1,0 +1,262 @@
+/* Configuração para desktop */
+
+.cabecarioEInfomarcoes{
+    margin: 20px;
+}
+
+main{
+    margin:20px;
+}
+
+.cabecario{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    height: 110px;  
+}
+
+.logoCabecario{
+    height:60px;
+    display:block;
+    margin: auto;
+}
+
+.logoFooter{
+    width: 100px;
+    height: 120px;
+}
+
+footer{
+    background-color: #454343;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.creditosDoFooter{
+  position: relative;
+  top:-20px;
+  color: white;
+}
+
+.caixaBlack{
+    height: 10px;
+    width: 100px;
+    background-color: #333333;
+}
+
+ul{
+    width: 899px;
+    background-color: #f4f0f0;
+    height: 150px;
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+li{
+    margin: 10px;  
+    height: 120px;
+    width: 200px;
+    text-align: center;
+}
+
+.listaDeEquipamentos{
+    display: flex;
+    justify-content: center; 
+    
+}
+
+.imagemsEquipementos{
+    display: flex;
+    justify-content: space-around;
+    padding: 10PX;
+}
+
+.Imagems{
+    width:50px;
+    height: 50px;
+}
+
+.listaDeRecomendacao{
+    display: flex;
+    justify-content: space-around;  
+    font-size: 15px;
+    gap:10px;
+}
+
+.locaisDisponiveis{
+    height: 395px;
+    width: 100%px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    overflow: hidden;   
+}
+
+.locaisInformacoes{
+    padding: 10px;
+    width: 268px;
+    height: 370px;
+    background-color: #efeeee;
+    border: #ded9d9 solid 1px; 
+    border-radius: 10px;
+}
+
+.lugarAberto{
+    color: #2FC022;
+    font-weight:1000;
+}
+
+.lugarFechado{
+    color: #dc0a17;
+    font-weight:1000;
+}
+
+.equipamentoCor{
+    color:#333333;
+    font-weight:1000;
+}
+
+.alinhamentoImagemsEmLocais{  
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.imagemsEquipamentosEmLocaisDisponiveis{
+    width: 60px;
+    height: 55px;
+}
+
+h1{
+    font-family: gotham-black;
+}
+
+.horarios{
+    padding: 10px;
+    height: 440px ;
+    width: 870px;
+    border:5px solid #dcd8d8;
+    border-radius: 10px ;
+}
+
+#horariosCorTexto{
+    color: #dcd8d8;
+}
+
+.botoesDehorarios{
+    width: 320px;
+    height: 40px;
+    transition: ease-in-out 0.2s;
+    border:2px solid #dcd8d8;
+    border-radius: 5px;
+    font-weight:1000;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+#botaoEncontrarUnidade{
+    background-color:  #FFB612;
+     border: none; 
+}
+
+.listaDeBotoes{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.imagemRelogio{
+    width: 40px;
+    height: 40px;
+}
+
+.relogio{
+    display: flex; 
+}
+
+.relogioTexto{
+    margin-left:10px ;
+    position: relative;
+    top:10px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;  
+}
+
+.alinhamentoDosHorarios .posicaoHorario{ 
+    position: relative;  
+    top:-17px;     
+    display: flex;
+    margin-left: 730px; 
+}
+
+.resultadosEncontrados{
+    margin-left:460px;
+}
+
+.alinharCabecario{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 900px;
+}
+
+.cabecarioEInfomarcoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#alinharTextosNoHeader{
+    position: relative;
+    left: -20px;
+    
+}
+
+.primeiraeLinhaDoForm{
+    margin-top: 10px;
+}
+
+.perguntaEmHorarios{
+    margin-left:10px ;
+    color: #808080;
+    font-size:20px ;
+}
+
+.posicaoHorario{
+    color: #808080;
+    font-size: 17px;
+    width: 130px;
+}
+   
+.alinhamentoDosHorarios{   
+    color: #808080;    
+}
+
+.horarioAberto{
+    display: flex;
+    margin-top: 10px;
+    gap:23px;
+}
+
+.diaAberto{
+    display: flex;
+    flex-direction: column;
+    padding: 10;
+}
+
+.diaTextFechado{
+    margin-top: 9px;
+}
+
+.moverNomeParcial{
+    margin-left: 10px;
+}
